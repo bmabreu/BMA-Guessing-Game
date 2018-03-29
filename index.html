@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+
+    <!--BOOTSTRAP AND CSS-->
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+
+
+  <body>
+      <div id='app' class='center container'>
+
+        <div id='headers'>
+          <!--TITLE AND SUBTITLES-->
+            <h1 id='title'>Welcome to<br>The Guessing Game!</h1>
+            <h3 id='subtitle'>Guess a number between 1 and 100...</h3>
+        </div>
+
+        <!--MAIN INPUT!-->
+        <div id='main'>
+          <div id='parent-input'>
+            <input id='player-input' class='center shadow' placeholder='#' maxlength='3' autofocus=autofocus></input>
+            <button id='submit' class='btn btn-success shadow'>GO!</button>
+          </div>
+
+          <!--GUESS LIST!-->
+          <div id='guesses'>
+            <ul id='guess-list'>
+              <li class='guess shadow'>-</li>
+              <li class='guess shadow'>-</li>
+              <li class='guess shadow'>-</li>
+              <li class='guess shadow'>-</li>
+              <li class='guess shadow'>-</li>
+            </ul>
+          </div>
+          
+          <!--MENU BUTTONS!-->
+          <div id="menu-btns">
+            <button id='reset' class='btn btn-warning'>RESET</button>
+            <button id='hint' class='btn btn-info'>HINT</button>
+          </div>
+        </div>
+      </div>
+
+
+    <!--FOOTER!-->
+    <div id='footer' class='center'>
+        <div class='row container'> 
+          <div class='col-sm-4'>
+            <img src=fa-logo@2x_preview.png></img>
+          </div>
+
+          <div class='col-sm-4'>
+            <h4>PROJECT BY<br>BERNICE MARIE ABREU</h4>
+          </div>
+
+          <div class='col-sm-4'>
+            <img src=grace_hopper_academy_preview.png></img>
+          </div>
+
+
+        </div>
+    </div>
+
+  </body>
+</html>
